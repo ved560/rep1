@@ -1,0 +1,25 @@
+create folder
+go into that folder through cmd and type "git init"
+create text folder in ved folder and with cmd type " git add file1.txt"
+>git commit -m "any txt"
+ >git config --global user.email "you@example.com"
+  >git config --global user.name "Your Name"
+
+add another txt file and 
+{
+create text folder in ved folder and with cmd type " git add file1.txt"
+>git commit -m "any txt"
+}
+
+to check all the comits :  > git log --oneline
+command to chect status : >git status
+
+git chectout file "number from >git log --oneline"
+
+
+----------TO PUSH FILES ON GITHUB ACOUNT-----------------
+
+go to github and create new repository 
+>git remote add origin https://github.com/ved560/rep1.git
+>git push -u origin master (THIS WILL PUSH YOUR DIR TO GITHUB REPOSIORY)
+
